@@ -1,0 +1,11 @@
+# Temporary files
+*.pyc
+__pycache__/
+.DS_Store
+
+# Build artifacts (keep only the essential logo file)
+wordmark-*.png
+laptop-screen.png
+logo-dark-bg.png
+logo-final.png
+logo.svg
