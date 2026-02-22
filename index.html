@@ -43,26 +43,48 @@
             margin: 0 auto;
         }
 
-        .stories-link {
+        .btn-group {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
             display: inline-block;
-            padding: 1.25rem 3rem;
-            background: #D47E45; /* Warm Orange - brand primary */
-            color: #FFFFFF;
-            text-decoration: none;
+            padding: 1.125rem 2.5rem;
             border-radius: 6px;
-            font-size: 1.25rem;
+            font-size: 1.125rem;
             font-weight: 600;
+            text-decoration: none;
             transition: all 0.3s ease;
             letter-spacing: 0.02em;
         }
 
-        .stories-link:hover {
-            background: #E89560; /* Lighter orange on hover */
+        .btn-primary {
+            background: #D47E45; /* Warm Orange */
+            color: #FFFFFF;
+        }
+
+        .btn-primary:hover {
+            background: #E89560;
             transform: translateY(-2px);
             box-shadow: 0 8px 24px rgba(212, 126, 69, 0.4);
         }
 
-        .stories-link:active {
+        .btn-secondary {
+            background: transparent;
+            color: #FFFFFF;
+            border: 2px solid rgba(255, 255, 255, 0.45);
+        }
+
+        .btn-secondary:hover {
+            border-color: #D47E45;
+            color: #D47E45;
+            transform: translateY(-2px);
+        }
+
+        .btn:active {
             transform: translateY(0);
         }
 
@@ -72,9 +94,11 @@
                 width: 85%;
             }
 
-            .stories-link {
+            .btn {
                 padding: 1rem 2rem;
-                font-size: 1.125rem;
+                font-size: 1rem;
+                width: 100%;
+                text-align: center;
             }
         }
     </style>
@@ -86,9 +110,14 @@
             <img src="llmachete-logo-sidebyside.png" alt="LLMachete" class="logo-horizontal">
         </div>
 
-        <a href="https://stories.llmachete.com" class="stories-link">
-            Read Our Latest →
-        </a>
+        <div class="btn-group">
+            <a href="https://stories.llmachete.com" class="btn btn-primary">
+                Explore Stories →
+            </a>
+            <a href="https://blog.llmachete.com" class="btn btn-secondary">
+                Read the Blog →
+            </a>
+        </div>
     </div>
 </body>
 </html>
