@@ -14,7 +14,7 @@
 
 ✅ **Colors**:
 - Deep Teal Blue: #0E5A61 (wordmark, primary button)
-- Warm Orange: #D47E45 (logo blade symbol)
+- Warm Orange: #D97D42 (logo blade symbol)
 - Medium Teal: #197A83 (hover state)
 - Soft Sand Beige: #F0E7E0 (subtle background)
 
